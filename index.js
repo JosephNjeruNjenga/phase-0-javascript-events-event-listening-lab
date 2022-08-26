@@ -1,7 +1,7 @@
-
 function addingEventListener() {
-    const input = document.getElementById("button");
+    const input = document.querySelector("#button");
     input.addEventListener('click', function () {
-        console.log('Ouch! That hurt.')
+        alert('Ouch! That hurt!')
     });
 }
+addingEventListener()
